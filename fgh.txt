@@ -26,4 +26,7 @@ pip3 install --user --upgrade cython virtualenv
 
 Sudo apt-get install cython
 
-buildozer android debug deploy run
+buildozer android debug deploy run 
+
+
+sudo ln -s /usr/bin/cython3 /usr/local/bin/cython  
